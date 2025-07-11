@@ -1,11 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dilpreet's Portfolio</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400|Roboto:400,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+  <header>
+    <nav>
+      <div class="logo">Dilpreet</div>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <img src="https://avatars.githubusercontent.com/u/youruser.png" alt="Dilpreet Avatar" class="avatar">
+      <h1>Hello, I'm <span>Dilpreet</span></h1>
+      <p>Web Developer & Designer</p>
+      <a href="#projects" class="cta">View My Work</a>
+    </div>
+  </header>
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I'm a passionate web developer with a knack for creating beautiful and user-friendly websites. My expertise includes HTML, CSS, and responsive web design. I love turning ideas into reality through code and design.
+      </p>
+    </section>
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>Personal Blog</h3>
+          <p>A clean and minimal blog site built with HTML & CSS only.</p>
+          <a href="#" target="_blank">View Project</a>
+        </div>
+        <div class="project-card">
+          <h3>Landing Page</h3>
+          <p>Modern landing page for a startup, fully responsive.</p>
+          <a href="#" target="_blank">View Project</a>
+        </div>
+        <div class="project-card">
+          <h3>Portfolio Website</h3>
+          <p>This portfolio template - open sourced for everyone!</p>
+          <a href="#" target="_blank">View Project</a>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit" disabled>Send (Demo Only)</button>
+      </form>
+      <div class="contact-info">
+        <p>Email: <a href="mailto:dilpreet@email.com">dilpreet@email.com</a></p>
+        <p>Location: Ludhiana, India</p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Dilpreet. All rights reserved.</p>
+  </footer>
 </body>
 </html>
